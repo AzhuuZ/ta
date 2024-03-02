@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [{
+			"rolls": 1.0,
+			"entries": [{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald_block"
+				}, {
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple"
+				}, {
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle"
+				}, {
+					"type": "minecraft:item",
+					"name": "minecraft:diamond"
+				}, {
+					"type": "minecraft:item",
+					"functions": [{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 64
+							}
+						}
+					],
+					"name": "minecraft:diamond_block"
+				}, {
+					"type": "minecraft:item",
+					"functions": [{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 8
+							}
+						}
+					],
+					"name": "minecraft:slime_ball"
+				}
+			]
+		}
+	]
+}

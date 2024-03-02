@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:fishing",
+	"pools": [{
+			"rolls": 1,
+			"entries": [{
+					"type": "minecraft:loot_table",
+					"weight": 50,
+					"quality": 10,
+					"name": "fishingloot:gameplay/fishing/legendary"
+				}, {
+					"type": "minecraft:loot_table",
+					"weight": 20,
+					"quality": 10,
+					"name": "fishingloot:gameplay/fishing/legendary"
+                                }, {
+					"type": "minecraft:loot_table",
+					"weight": 20,
+					"quality": 10,
+					"name": "fishingloot:gameplay/fishing/treasure"
+				}, {
+					"type": "minecraft:loot_table",
+					"weight": 15,
+					"quality": 4,
+					"name": "fishingloot:gameplay/fishing/rare"
+				}, {
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"quality": 1,
+					"name": "fishingloot:gameplay/fishing/epic"
+				}, {
+					"type": "minecraft:loot_table",
+					"weight": 10,
+					"quality": 2,
+					"name": "fishingloot:gameplay/fishing/legendary"
+				}
+			]
+		}
+	]
+}
